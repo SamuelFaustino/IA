@@ -8,3 +8,5 @@ is-moves_left(board) retorna true porque ainda há movimentos. Inicializa best =
 - Chamada recursiva pelo Minimizador: chama minimax(board, 2, true) - depth e incrementado para 2. is_max = true.
 - Explorado movimentos pelo maximizador: passa pelas celulas encontra (1,0) e marca com X.
 - Chamada recursiva pelo maximizador: chama minimax(boar, 3, false). depth = 3. is_max = false.
+
+![imagem-debug](minimax.png)
